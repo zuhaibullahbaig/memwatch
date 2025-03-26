@@ -113,7 +113,7 @@ int main()
     bkgd(dark_mode ? COLOR_PAIR(6): COLOR_PAIR(3));
     attron(dark_mode ? COLOR_PAIR(4) : COLOR_PAIR(1));
 
-    mvprintw(LINES - 2, 2, "[Q] Quit  [L] Light Mode  [D] Dark Mode  [R] Refresh");
+    mvprintw(LINES - 2, 2, "[Q] Quit  [L] Light Mode  [D] Dark Mode");
 
     attron(dark_mode ? COLOR_PAIR(4) : COLOR_PAIR(1));
 
